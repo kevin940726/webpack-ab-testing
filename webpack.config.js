@@ -31,8 +31,7 @@ const getConfig = options => ({
         minifyCSS: true,
         minifyURLs: true
       },
-      inject: true,
-      inlineSource: "runtime\\..+\\.js"
+      inject: true
     }),
     new ScriptExtHtmlWebpackPlugin({
       defaultAttribute: "defer",
